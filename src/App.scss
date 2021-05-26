@@ -1,0 +1,32 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+form-wrapper{
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 500px;
+    
+    .form-group{
+      display: flex;
+      padding: 10px;
+      flex-direction: row;  
+      background-color: #f6f6f6;
+      margin-top: 10px;
+      width: 300px;
+          label{
+          display: flex;
+          justify-content: flex-start;
+        }
+        input{
+          display: flex;
+          height: 1.5rem;
+          width: 100%;
+          margin-left:2rem;
+          margin-right: 2rem;
+          justify-content: space-around;
+        }
+    }
+}
